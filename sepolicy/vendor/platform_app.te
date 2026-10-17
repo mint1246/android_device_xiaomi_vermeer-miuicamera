@@ -8,7 +8,6 @@ get_prop(platform_app_all, vendor_camera_prop)
 get_prop(platform_app_all, vendor_camera_p3enable_prop)
 get_prop(platform_app_all, vendor_fp_prop)
 get_prop(platform_app_all, vendor_display_prop)
-get_prop(platform_app_all, vendor_panel_info_prop)
 
 allow platform_app_all proc_pressure_mem:file r_file_perms;
 allow platform_app_all proc_pressure_cpu:file r_file_perms;
